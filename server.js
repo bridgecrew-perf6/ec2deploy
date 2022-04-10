@@ -20,7 +20,7 @@ const io = new Server(httpServer, {
 
 
     
- 
+
   app.use(express.static('build'));
 
   // socket server
